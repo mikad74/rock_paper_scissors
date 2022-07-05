@@ -90,11 +90,11 @@ function showGame(playerChoice, computerChoice) {
   const computerDiv = document.createElement("div")
   computerDiv.innerText = "COMPUTER"
   const playerImg = document.createElement("img")
-  playerImg.src = `../images/${playerChoice}.svg`
+  playerImg.src = `./images/${playerChoice}.svg`
   const div = document.createElement("div")
   div.innerText = "vs."
   const computerImg = document.createElement("img")
-  computerImg.src = `../images/${computerChoice}.svg`
+  computerImg.src = `./images/${computerChoice}.svg`
   playerDiv.appendChild(playerImg)
   container.appendChild(playerDiv)
   container.appendChild(div)
