@@ -20,7 +20,7 @@ body {
 }
 
 .previous-game img {
-  height: 5em;
+  height: 2em;
   padding: 15px;
   margin: 15px;
   border: 4px solid black;
@@ -29,7 +29,13 @@ body {
 
 .previous-game div {
   font-weight: 700;
-  font-size: 5em;
+  font-size: 2em;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .image img {
@@ -49,7 +55,6 @@ body {
   display: flex;
   width: 65%;
   align-items: center;
-  justify-content: space-around;
 }
 
 .current-game {
@@ -58,6 +63,7 @@ body {
   border: 4px solid #200e09;
   border-radius: 8px;
   margin: 20px 0;
+  padding: 0 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,6 +88,12 @@ button {
 
 button:active {
   background-color: #3e4837;
+}
+
+.score {
+  margin: 2em;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 .footer {
